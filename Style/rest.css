@@ -1,0 +1,143 @@
+:root{
+    --green:#186F65;
+    --coffee:#B2533E;
+    --lg:#B5CB99;
+    --ls:#FCE09B;
+}
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    
+    color:whitesmoke;
+    background-image: url('../Media/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header a{
+    text-decoration: none;
+    color:var(--green);
+    min-width: 120px;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+    min-width: 192px;
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color:black;
+}
+header h2 i, nav a i{
+    margin-right: .5em;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+    
+
+}
+.maintext div{
+    margin-top: .75cm;
+}
+.maintext button{
+    width: 20vw;
+    background-color: #186F65;
+    border-radius: 10px;
+    padding: .7em;
+    color: var(--lg);
+    margin-top: .5cm;
+}
+.tagline1{
+    color:var(--green);
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+.tagline2{
+    color: black;
+    font-size:larger;
+}
+.tagline3{
+    color: black;
+}
+.menu{
+    display: grid;
+    color: var(--lg);
+    background-image: linear-gradient(to right, rgb(70, 70, 70),rgb(62, 80, 74),rgb(62, 80, 74),rgb(62, 80, 74),rgb(92, 92, 100),rgb(70, 70, 70),rgb(62, 80, 74));
+    grid-template-columns: repeat(auto-fit,minmax(242px,1fr));
+}
+#menuheading,#locationheading{
+    background-image: linear-gradient(to right, rgb(70, 70, 70),rgb(62, 80, 74),rgb(62, 80, 74),rgb(62, 80, 74),rgb(92, 92, 100),rgb(70, 70, 70),rgb(62, 80, 74));
+    color: #186F65;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu th{
+    font-size: 1.5em;
+    color: black;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.mainitem{
+    grid-row: span 2;
+}
+.locations{
+    background-image: linear-gradient(to right, rgb(70, 70, 70),rgb(62, 80, 74),rgb(62, 80, 74),rgb(62, 80, 74),rgb(92, 92, 100),rgb(70, 70, 70),rgb(62, 80, 74));
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    margin-bottom: .8em;
+    
+}
+.locations div{
+    flex:1;
+    padding: 1em;
+    min-height: 140px;
+}
+footer{
+    background-color: rgb(37, 34, 34);
+    color: aliceblue;
+    padding: .25em 1em;
+    
+    text-align: center;
+
+}
