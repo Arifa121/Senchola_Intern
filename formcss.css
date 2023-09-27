@@ -1,0 +1,59 @@
+body{
+    background:url("one.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 400%;
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+    
+}
+.myf{
+    width: 400px;
+    margin: 250px auto;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 10px 20px 30px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.myf h1{
+    text-align: center;
+    
+}
+.textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.3em;
+    border: 2px solid blue;
+    box-shadow: 2px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+input:focus{
+    background-color: rgb(124, 145, 146);
+}
+.btn{
+    text-align: center;
+
+}
+button{
+    background-color: lightgreen;
+    margin-top: 20px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.2em;
+}
+.radio input{
+    accent-color: lightgreen;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+}

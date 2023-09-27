@@ -1,0 +1,25 @@
+.yellowbox{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    /* position:   sticky;
+    top: 0px; */
+}
+.bluebox{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /* position: fixed;
+    top:100px;
+    left: 100px; */
+
+
+    /* left: 78px;
+    bottom: 210px; */
+}
+/* h1{
+    position: relative;
+    left: 230px;
+} */
