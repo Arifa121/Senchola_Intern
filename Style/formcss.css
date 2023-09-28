@@ -1,5 +1,5 @@
 body{
-    background:url("one.jpg");
+    background:url('../Media/one.jpg');
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     height: 400%;
