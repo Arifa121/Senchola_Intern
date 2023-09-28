@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.maintext{
+    background-image: url('../Media/task2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+.maintext div{
+    margin-top: .75cm;
+}
+.maintext button{
+
+    
+    display: inline-flex;
+    font-size: inherit;
+    margin-top: .5em;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:1em;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgba(153, 88, 13, 0.534),rgba(131, 128, 119, 0.37),rgb(92, 92, 100),rgba(153, 88, 13, 0.534),rgba(153, 88, 13, 0.534),rgb(190, 177, 169),rgba(153, 88, 13, 0.534),rgb(92, 92, 100),rgba(153, 88, 13, 0.534),rgb(62, 80, 74));
+
+    
+}
+#logo{
+    flex: 2;
+}
+nav{
+    flex: 2;
+    display: flex;
+    padding: 1em;
+    align-content: left;
+    justify-content: center;
+    
+}
+nav a{
+    flex: 1;
+}
