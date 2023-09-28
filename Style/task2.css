@@ -9,22 +9,16 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2em;
+    background-attachment: fixed;
 }
+
 .maintext div{
     margin-top: .75cm;
-}
-.maintext button{
-
-    
-    display: inline-flex;
-    font-size: inherit;
-    margin-top: .5em;
-    
 }
 header a{
     text-decoration: none;
@@ -47,10 +41,46 @@ nav{
     flex: 2;
     display: flex;
     padding: 1em;
-    
     justify-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    justify-content: center;  
+    transition: 5s linear;
     
 }
 nav a{
     flex: 1;
+    align-content: center;
+    
+}
+.container {
+    display: flex;
+    gap: 20px;
+  }
+.maintext button{
+    width: 200px;
+    font-size: 1.2rem;
+    margin-top: .8em;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 8px;
+    padding: .4em;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+  }
+.tagline1{
+    font-size: 3rem;
+    font-style: oblique;
+}
+.tagline2{
+    font-size: 2rem;
+}
+.tagline3{
+    font-size: 1.3rem;
+}
+button:hover{
+    background-color: rgba(153, 88, 13, 0.534);
+}
+nav a:hover{
+    color:rgba(153, 88, 13, 0.534);;
+    border-bottom: 2px solid black;
 }
