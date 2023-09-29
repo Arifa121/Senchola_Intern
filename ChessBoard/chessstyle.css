@@ -1,0 +1,29 @@
+html{
+    background: gray;
+}
+body{
+    background: white;
+    width: 800px;
+    height: 800px;
+    margin: 30px auto; /* top and bottom 0px and left and right automatic aa vandhu center aaiedum */
+    
+}
+
+.row{
+    width:100%;
+    height:100px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+.black{
+    background:black ;
+}
+.box:hover{
+    background-color:khaki  ;
+}

@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 2em;
-    background-attachment: fixed;
+    background-attachment: fixed    ;
 }
 
 .maintext div{
