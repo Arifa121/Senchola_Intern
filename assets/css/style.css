@@ -1,0 +1,21 @@
+div.container{
+    background-color: violet;
+    border: 1px solid white;
+}
+body{
+    color:white;
+    background-color:#673ab7;
+}
+
+.p50{
+    padding: 50px;
+}
+div.color-1{
+    background-color: rgb(184, 222, 135);
+    height: 500px;
+}
+.bg{
+    padding: 15px;
+    border: 1px solid ;
+
+}
