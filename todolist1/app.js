@@ -52,10 +52,15 @@ function validateinputs(){
         success=false
         setError(cpassword,'Confirm Password is required')
     }
+    else if(passwordval.length<8){
+        success=false
+        setError(password,'Password must be atleast 8 characters long')
+    }
     else if(cpasswordval!==passwordval){
         success=false
         setError(cpassword,'Password doesnt match')
     }
+
     else{
         setSuccess(cpassword)
     }
